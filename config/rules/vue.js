@@ -1,8 +1,15 @@
+const combineLoaders = require('webpack-combine-loaders')
+
 module.exports = {
   test: /\.vue$/,
   loader: 'vue-loader',
   options: {
-    js: 'babel-loader',
+    loaders: {
+      js: combineLoaders([
+        require('./babel')
+      ])
+    },
+    postcss: require('postcss-blue-plugins')(),
     cssModules: {
       importLoaders: 1,
       modules: true,

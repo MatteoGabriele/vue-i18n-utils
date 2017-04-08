@@ -4,7 +4,7 @@ var vue = require('./rules/vue')
 var pack = require('../package.json')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src',
   output: {
     libraryTarget: 'umd',
     path: './dist',
