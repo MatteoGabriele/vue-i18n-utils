@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-utils",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Collection of utility components for vue-i18n-manager",
   "main": "dist/vue-i18n-utils.js",
   "files": [
