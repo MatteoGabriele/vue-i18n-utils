@@ -7,15 +7,18 @@
   background: #e8e8e8;
   wrapper: 440px;
   text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .selectedLanguage {
   col: 1 1;
   background: #3AB882;
+  border-top: 1px solid #4EDB9E;
   color: white;
   padding: 10px;
   cursor: pointer;
   position: relative;
+  font-size: 12px;
 }
 
 .language-container {
@@ -36,12 +39,16 @@
   background: #3AB882;
   outline: none;
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 20px;
+  font-size: 12px;
   color: #333333;
   border-top: 1px solid #c8c8c8;
-  border-right: 1px solid #c8c8c8;
-  border-left: 1px solid #c8c8c8;
   background: white;
+  text-align: left;
+
+  &:first-child {
+    border: none;
+  }
 
   &:hover {
     background: #f8f8f8;
@@ -122,6 +129,11 @@
   .translation-tool {
     left: 0px;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .language {
+    text-align: center;
+    padding: 15px 20px;
   }
 }
