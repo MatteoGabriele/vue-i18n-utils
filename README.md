@@ -29,6 +29,10 @@ it is also possible to pass a `label` parameter (default value is `code`), and i
 <language-switcher label="name" />
 ```
 
+## Docs
+
+More about these components [here](https://matteogabriele.gitbooks.io/vue-i18n-manager/content/components.html)
+
 # Issues and features requests
 Please drop an issue, if you find something that doesn't work, or a feature request at https://github.com/MatteoGabriele/vue-i18n-utils/issues
 
