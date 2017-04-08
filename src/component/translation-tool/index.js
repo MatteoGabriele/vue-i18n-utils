@@ -6,6 +6,10 @@ export default {
   name: 'translation-tool',
 
   props: {
+    compact: {
+      type: Boolean,
+      default: false
+    },
     label: {
       type: String,
       default: 'code'
@@ -22,7 +26,8 @@ export default {
 
   data () {
     return {
-      isOpen: false
+      isOpen: false,
+      boxStyle: {}
     }
   },
 
