@@ -152,13 +152,19 @@
 @media (max-width: 420px) {
   .translation-tool {
     left: 0px;
+    max-width: 100%;
     width: 100%;
-    font-size: 14px;
+  }
+
+  .selected-language {
+    font-size: 16px;
   }
 
   .translation-tool-compact {
     text-align: center;
+    width: 100%;
     max-width: 100%;
+
     .selected-language {
       padding: 20px 40px;
       p {
@@ -171,5 +177,6 @@
   .language {
     text-align: center;
     padding: 15px 20px;
+    font-size: 16px;
   }
 }
